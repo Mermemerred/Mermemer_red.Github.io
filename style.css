@@ -43,3 +43,15 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+.qr-code {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;  /* Adjust size */
+    height: 100px;
+    opacity: 0.8;  /* Slight transparency */
+    transition: transform 0.3s ease-in-out;
+}
+.qr-code:hover {
+    transform: scale(1.1);  /* Slight zoom on hover */
+}
