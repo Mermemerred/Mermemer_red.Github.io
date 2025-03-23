@@ -47,8 +47,8 @@ footer {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    width: 10px;  /* Adjust size */
-    height: 10px;
+    width: 10%;  /* Adjust size */
+    height: 10%;
     opacity: 1 ;  /* Slight transparency */
     transition: transform 0.3s ease-in-out;
 }
